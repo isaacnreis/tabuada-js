@@ -59,7 +59,7 @@ button{
   -webkit-text-stroke-color: #000;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 412px) {
   #resultado{
     width: 80vw;
   }
