@@ -1,0 +1,66 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lexend', sans-serif;    
+}
+
+header, footer{
+  background-color: rgb(17, 17, 17);
+  color: aliceblue;
+  padding: 2rem;
+  text-align: center;
+  width: 100vw;
+}
+
+main{
+  margin: 1rem 0;
+}
+
+.botoesConteiner{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button{
+  background: linear-gradient(135deg, #f00000, #ff8000, #ffff00, #007940, #4040ff, #a000c0);
+  border: none;
+  border-radius: 1rem;
+  font-size: 2rem;
+  padding: 1rem;
+  margin: 0.5rem;
+  cursor: pointer;
+}
+
+#resultado{
+  background: aliceblue;
+  border-top: 2px solid #f00000;
+  border-right: 2px solid #ff8000;
+  border-bottom: 2px solid #007940;
+  border-left: 2px solid #4040ff;
+  border-radius: 1rem;
+  padding: 1rem;
+  font-size: 2rem;
+  text-align: center;
+  width: 50vw;
+  margin: 1rem auto;
+}
+
+#resultado p{
+  color: black;
+  background-image: linear-gradient(135deg, #f00000, #ff8000, #ffff00, #007940, #4040ff, #a000c0);
+  background-repeat: no-repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: #000;
+}
+
+@media screen and (max-width: 375px) {
+  #resultado{
+    width: 80vw;
+  }
+}
