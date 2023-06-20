@@ -5,8 +5,11 @@
   font-family: 'Lexend', sans-serif;    
 }
 
+body {
+  background: rgb(17, 17, 17);
+}
+
 header, footer{
-  background-color: rgb(17, 17, 17);
   color: aliceblue;
   padding: 2rem;
   text-align: center;
@@ -14,7 +17,8 @@ header, footer{
 }
 
 main{
-  margin: 1rem 0;
+  padding: 1rem 0;
+  background: aliceblue;
 }
 
 .botoesConteiner{
@@ -59,8 +63,14 @@ button{
   -webkit-text-stroke-color: #000;
 }
 
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 414px) {
   #resultado{
     width: 80vw;
+  }
+
+  @media screen and (max-width: 295px) {
+    #resultado{
+      width: 95vw;
+    }
   }
 }
